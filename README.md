@@ -44,8 +44,7 @@ I am currently not sure that is the correct time to wait, but it should be betwe
 
 ### ⏳ Why wait?
 
-This bug is theorized to manifest after a certain delay, when the CancellationToken expires or the workflow enters a
-cancelled state.
+This bug is theorized to manifest after a certain delay, when the CancellationToken expires.
 
 ### Step 3: Raise a Signal
 
