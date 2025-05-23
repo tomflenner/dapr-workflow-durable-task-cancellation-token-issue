@@ -37,7 +37,7 @@ This will trigger the workflow logic. You will receive the workflow instance ID 
 
 ### Step 2: Wait for Cancellation
 
-Wait approximately 60 seconds before proceeding. This waiting period simulates the timeout duration where the
+Wait at least 60 seconds before proceeding. This waiting period simulates the timeout duration where the
 CancellationToken is expected to be triggered.
 
 I am currently not sure that is the correct time to wait, but it should be between 60 and 100 seconds at least.
